@@ -1,0 +1,1 @@
+sed -e "s/@DEVICE@/starlte/" -e "s/@VENDOR@/samsung/" -e "s/@DEVICE_PRETTY@/Galaxy S9/" -e "s/@VENDOR_PRETTY@/Samsung/" droid-configs-device/droid-config-@DEVICE@.spec.template > rpm/droid-config-starlte.spec
